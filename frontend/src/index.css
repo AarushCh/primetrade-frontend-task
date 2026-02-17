@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply min-h-screen bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#1e1b4b] text-slate-100;
+    }
+}
+
+.glass {
+    @apply bg-white/10 backdrop-blur-xl border border-white/10 shadow-2xl rounded-3xl;
+}
+
+.glass-hover {
+    @apply hover:bg-white/15 transition-all duration-300;
+}
+
+.primary-btn {
+    @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:from-indigo-600 hover:to-pink-600 text-white font-bold rounded-xl shadow-xl transition-all duration-300 transform hover:-translate-y-1 active:scale-95;
+}
