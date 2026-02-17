@@ -63,7 +63,7 @@ In a production system, admin roles would be enforced on the backend.
 ---
 
 ## Project Structure
-
+```
 frontend/
 ├── src/
 │ ├── components/
@@ -78,7 +78,7 @@ backend/
 ├── routes/
 ├── middleware/
 └── server.js
-
+```
 
 ---
 
